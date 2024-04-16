@@ -1,0 +1,130 @@
+body {
+    margin: 0;
+    box-sizing: border-box;
+    padding-top: 100px;
+    height: 100vh;   
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:rgb(48, 48, 48);
+    background-color: rgb(244, 244, 244);
+
+}
+
+
+/* Navigation bar */
+#navContainer {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    position: fixed;
+    top: 0;
+    left: 0;
+    align-items: center;
+    
+}
+
+#logo {
+    width: 30%;
+    height: 80px;
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    padding-left: 20px;
+    overflow: hidden;
+}
+
+
+#navLinks {
+    width: 70%;
+    height: 80px;
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+    align-items: center;
+
+}
+
+    #navLinks > a {
+        text-decoration: solid;
+        margin-right: 50px;
+        color: rgb(41, 41, 41);
+    }
+
+
+/* Main content */
+#mainContainer {
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 100px;
+    bottom: 80px;
+    z-index: -1;
+}
+
+#contentContainer {
+    width: 80%;
+    height: 100%;
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.textContainer {
+    width: 50%;
+    height: 70%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items:flex-start;
+    padding: 40px;
+    justify-content: center;
+}
+
+    .textContainer > h2 {font-size: 60px; color: rgb(38, 65, 244);}
+
+    .imageContainer > img {border-radius: 9px; }
+
+.imageContainer {
+    width: 50%;
+    height: 70%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    box-sizing: border-box;
+    padding: 5px;
+}
+
+
+/* Footer */
+#footerContainer {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    align-items: center;
+    justify-content: center;
+}
+
+    #footerContainer > img {
+        height: 80%;
+        margin-right: 30px;
+    }
