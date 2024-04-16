@@ -7,49 +7,74 @@
 </head>
 
 <body>
-  
-<!-- Navigation bar -->
-    <nav id="navContainer">
-        <div id="logo">
-            <img src="/Images/logo_2.jpeg">
-        </div>
-
-        <div id="navLinks">
-            <a href="/portfolio.html">PORTFOLIO</a>
-            <a href="/about.html">ABOUT</a>
-            <a href="/contact.html">CONTACT</a>
-
-        </div>
-    </nav>
+    
 
 <!-- Main content section -->
     <div id="mainContainer">
+       
+       <!-- Navigation bar -->
+        <nav id="navContainer">
+            <div id="logo">
+                <a href="/index.html">
+                <img src="/Images/logo_2.jpeg"></a>
+            </div>
+    
+            <div id="navLinks">
+                <a href="/portfolio.html">PORTFOLIO</a>
+                <a href="/about.html">ABOUT</a>
+                <a href="/contact.html">CONTACT</a>
+    
+            </div>
+        </nav>
 
-        <section id="contentContainer">
+        <section id="contentContainerPortfolio">
             
-            <div class="textContainer">
-                <h1>Hi, I'm Ted.</h1>
-                <h2>I'm an aspiring software engineer.</h2>
+            <div class="titlePortfolio">
+                <h1>Portfolio</h1>
+            </div>
+            
+            <div class="portfolioContainer">
+                <div class="portfolioText">
+                    <h2>Project: Ted's bookhouse</h2>
+                    <p>This was a basic page focused on building out CSS and Flexbox skills.</p>
+                    <a href="https://github.com/tedschu/Block07">See on Github</a>
+                </div>
+
+                <div class="portfolioImage">
+                    <img src="/Images/port_books.jpeg">
+                </div>
             </div>  
 
-            <div class="imageContainer">
-                <img src="/Images/ted.jpeg" alt="Ted's picture">
+            <div class="portfolioContainer">
+                <div class="portfolioText">
+                    <h2>Project: Zoo animals</h2>
+                    <p>This project was a reference page + listing of zoo animals. It included media queries to re-size based on the screen / device type. </p>
+                    <a href="https://github.com/tedschu/Block05">See on Github</a>
+                </div>
 
-            </div>
+                <div class="portfolioImage">
+                    <img src="/Images/port_animals.jpeg">
+                </div>
+            </div> 
 
+            <div class="portfolioContainer">
+                <div class="portfolioText">
+                    <h2>Project: Secure the vault</h2>
+                    <p>This project was focused on Javascript basics, including an HTML button that called to a Javascript function. The result would display a secret combination.</p>
+                    <a href="https://github.com/tedschu/Block07_JS">See on Github</a>
+                </div>
+
+                <div class="portfolioImage">
+                    <img src="/Images/port_secure.jpeg">
+                </div>
+            </div> 
         </section>
-    </div>
-
-<!-- Footer -->
-    <footer id="footerContainer">
-        <img src="/Images/logo_github.jpg" alt="Github logo">
-        <img src="/Images/logo_linkedin.png" alt="LinkedIn logo">
-
-    </footer>
 
 
 
 
 
+<!-- Script outputting "hello world" in console -->
+    <script src="/app.js"></script>
 </body>
 </html>

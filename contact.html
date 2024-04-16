@@ -11,7 +11,8 @@
 <!-- Navigation bar -->
     <nav id="navContainer">
         <div id="logo">
-            <img src="/Images/logo_2.jpeg">
+            <a href="/index.html">
+            <img src="/Images/logo_2.jpeg"></a>
         </div>
 
         <div id="navLinks">
@@ -25,31 +26,40 @@
 <!-- Main content section -->
     <div id="mainContainer">
 
-        <section id="contentContainer">
-            
-            <div class="textContainer">
-                <h1>Hi, I'm Ted.</h1>
-                <h2>I'm an aspiring software engineer.</h2>
-            </div>  
+        <section id="contentContainerForm">
 
-            <div class="imageContainer">
-                <img src="/Images/ted.jpeg" alt="Ted's picture">
+            <div id="formContainer">
+                <h2>Please reach out:</h2>
+                <form action="/index.html">
+                    <label for="fname">First name:</label><br>
+                    <input type="text" id="fname" name="fname" value="" size=70><br>
+                    <label for="lname">Last name:</label><br>
+                    <input type="text" id="lname" name="lname" value="" size=70><br>
+                    <label for="lname">Email:</label><br>
+                    <input type="text" id="lname" name="lname" value="" size=70><br>
+                    <label for="lname">Your message:</label><br>
+                    <input type="text" id="lname" name="lname" value="" size=70><br><br>
+                    <input type="submit" value="Submit">
+                  </form> 
 
             </div>
 
-        </section>
-    </div>
 
-<!-- Footer -->
-    <footer id="footerContainer">
-        <img src="/Images/logo_github.jpg" alt="Github logo">
-        <img src="/Images/logo_linkedin.png" alt="LinkedIn logo">
+        </section>
+      <!-- Footer -->
+      <footer id="footerContainer">
+        <a href="https://github.com/tedschu/">
+        <img src="/Images/logo_github.jpg" alt="Github logo"></a>
+        <a href="https://www.linkedin.com/in/ted-schuster-6ba8552/"><img src="/Images/logo_linkedin.png" alt="LinkedIn logo"></a>
 
     </footer>
+    </div>
+    </div>
 
 
 
 
+    <script src="/app.js"></script>
 
 </body>
 </html>
