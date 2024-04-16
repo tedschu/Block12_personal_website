@@ -74,11 +74,10 @@ body {
     display: flex;
     box-sizing: border-box;
     flex-direction: row;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     align-items: center;
     padding-bottom: 80px;
 }
-
 
 /* Home page */
 .textContainer {
@@ -212,7 +211,12 @@ body {
     }
 
 
-
+/* web query */
+@media screen and (min-width: 600px) {
+    .contentContainer {
+        flex-direction: row;
+    }
+}
 
 
 
