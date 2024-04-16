@@ -54,6 +54,10 @@ body {
         color: rgb(41, 41, 41);
     }
 
+    #navLinks > a:hover {
+        background-color: lightblue;
+    }
+
 
 /* Main content */
 #mainContainer {
